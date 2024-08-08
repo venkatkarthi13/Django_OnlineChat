@@ -6,10 +6,12 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Security settings
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'default-secret-key')
-DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
+SECRET_KEY = 'django-insecure-qrsnt45lo%+d0^m$ld41pauqk=irkz()5wc!hoy273=rhkv)!&'
 
-ALLOWED_HOSTS = ['online-chatapp.onrender.com','127.0.0.1',]
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+ALLOWED_HOSTS = ['online-chatapp.onrender.com','127.0.0.1','localhost']
 
 # Application definition
 INSTALLED_APPS = [
