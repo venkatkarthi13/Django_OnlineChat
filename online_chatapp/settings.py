@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-qrsnt45lo%+d0^m$ld41pauqk=irkz()5wc!hoy273=rhkv)!&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['online-chatapp.onrender.com','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['proposed-valentia-buddy-30438395.koyeb.app','online-chatapp.onrender.com','127.0.0.1','localhost']
 
 # Application definition
 INSTALLED_APPS = [
